@@ -1,6 +1,6 @@
 Summary:    A musical instrument tuner
 Name:       lingot
-Version:    0.9.1
+Version:    1.1.1
 Release:    1
 URL:        http://savannah.nongnu.org/projects/%{name}
 Source0:     http://download.savannah.gnu.org/releases/%{name}/%{name}-%{version}.tar.gz
