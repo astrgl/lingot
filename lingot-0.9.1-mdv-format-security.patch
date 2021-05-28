@@ -1,0 +1,13 @@
+Index: lingot-0.9.1/src/lingot-gui-mainframe.c
+===================================================================
+--- lingot-0.9.1.orig/src/lingot-gui-mainframe.c
++++ lingot-0.9.1/src/lingot-gui-mainframe.c
+@@ -242,7 +242,7 @@ gboolean lingot_gui_mainframe_callback_e
+ 							(message_type == ERROR) ? GTK_MESSAGE_ERROR
+ 									: ((message_type == WARNING) ? GTK_MESSAGE_WARNING
+ 											: GTK_MESSAGE_INFO),
+-							GTK_BUTTONS_CLOSE, error_message);
++							GTK_BUTTONS_CLOSE, "%s", error_message);
+ 			gtk_window_set_title(GTK_WINDOW(message_dialog), (message_type
+ 					== ERROR) ? _("Error")
+ 					: ((message_type == WARNING) ? _("Warning") : _("Info")));
