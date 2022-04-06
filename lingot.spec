@@ -9,7 +9,7 @@ Release:	1
 License:	GPLv2+
 Group:		Sound
 Url:			https://www.nongnu.org/lingot/
-Source0:	https://download.savannah.gnu.org/releases/%{name}/%{name}-%{version}.tar.gz
+Source0:	%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	intltool >= 0.23
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(fftw3)
