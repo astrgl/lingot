@@ -4,7 +4,7 @@
 
 Summary:	A musical instrument tuner
 Name:		lingot
-Version:	1.1.1
+Version:	1.1.0
 Release:	1
 License:	GPLv2+
 Group:		Sound
